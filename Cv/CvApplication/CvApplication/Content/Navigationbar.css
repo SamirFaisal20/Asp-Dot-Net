@@ -1,0 +1,45 @@
+﻿.navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: darkslateblue;
+    text-align: center;
+}
+
+    .navigation > a {
+        background-color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+#name {
+    margin-left: 600px;
+    border-radius: 8px;
+}
+
+#about {
+    border-radius: 8px;
+}
+
+#contact {
+    border-radius: 8px;
+}
+#skil {
+    border-radius: 8px;
+}
+#name:hover {
+    background-color: aquamarine;
+}
+
+#about:hover {
+    background-color: aquamarine;
+}
+
+#contact:hover {
+    background-color: aquamarine;
+}
+#skil:hover {
+    background-color: aquamarine;
+}
